@@ -1,0 +1,53 @@
+14-Dec-2025 17:19:39.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+14-Dec-2025 17:19:39.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+14-Dec-2025 17:19:39.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+14-Dec-2025 17:19:39.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+14-Dec-2025 17:19:39.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            13.7.8
+14-Dec-2025 17:19:39.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+14-Dec-2025 17:19:39.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/fireant/Library/Java/JavaVirtualMachines/openjdk-24.0.2+12-54/Contents/Home
+14-Dec-2025 17:19:39.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           24.0.2+12-54
+14-Dec-2025 17:19:39.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Dec-2025 17:19:39.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Library/Tomcat
+14-Dec-2025 17:19:39.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Library/Tomcat
+14-Dec-2025 17:19:39.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Library/Tomcat/conf/logging.properties
+14-Dec-2025 17:19:39.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Dec-2025 17:19:39.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Dec-2025 17:19:39.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Dec-2025 17:19:39.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+14-Dec-2025 17:19:39.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Dec-2025 17:19:39.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Dec-2025 17:19:39.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+14-Dec-2025 17:19:39.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Dec-2025 17:19:39.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Dec-2025 17:19:39.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Dec-2025 17:19:39.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Dec-2025 17:19:39.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Library/Tomcat
+14-Dec-2025 17:19:39.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Library/Tomcat
+14-Dec-2025 17:19:39.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Library/Tomcat/temp
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/Library/Tomcat/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+14-Dec-2025 17:19:39.247 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/fireant/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+14-Dec-2025 17:19:39.501 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Dec-2025 17:19:39.526 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [476] milliseconds
+14-Dec-2025 17:19:39.562 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Dec-2025 17:19:39.562 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+14-Dec-2025 17:19:39.571 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Library/Tomcat/webapps/docs]
+14-Dec-2025 17:19:39.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Library/Tomcat/webapps/docs] has finished in [248] ms
+14-Dec-2025 17:19:39.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Library/Tomcat/webapps/manager]
+14-Dec-2025 17:19:39.849 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Library/Tomcat/webapps/manager] has finished in [29] ms
+14-Dec-2025 17:19:39.849 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Library/Tomcat/webapps/examples]
+14-Dec-2025 17:19:40.071 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Library/Tomcat/webapps/examples] has finished in [221] ms
+14-Dec-2025 17:19:40.071 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Library/Tomcat/webapps/ROOT]
+14-Dec-2025 17:19:40.085 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Library/Tomcat/webapps/ROOT] has finished in [14] ms
+14-Dec-2025 17:19:40.086 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Library/Tomcat/webapps/host-manager]
+14-Dec-2025 17:19:40.102 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Library/Tomcat/webapps/host-manager] has finished in [16] ms
+14-Dec-2025 17:19:40.106 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Dec-2025 17:19:40.117 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [589] milliseconds
+14-Dec-2025 17:20:29.644 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Dec-2025 17:20:29.645 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Dec-2025 17:20:29.648 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Dec-2025 17:20:29.664 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Dec-2025 17:20:29.671 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
